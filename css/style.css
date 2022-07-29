@@ -113,6 +113,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--text-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 .header-link-contact {
@@ -122,26 +123,31 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--p-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-link-contact-icon {
   fill: var(--p-color);
   margin-right: 10px;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-link:hover,
 .header-link:focus {
   color: var(--accent-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
  
 }
 
 .header-link-contact:hover,
 .header-link-contact:focus {
   color: var(--accent-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-link-contact:hover .header-link-contact-icon,
 .header-link-contact:focus .header-link-contact-icon {
   fill: var(--accent-color);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .curent {
@@ -209,13 +215,14 @@ body {
   padding: 8px 30px;
   min-width: 200px;
   border: none;
+  transition:  background-color, box-shadow, 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-btn:hover,
 .hero-btn:focus {
   background-color: var(--btn-hover);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
+  transition:  background-color, box-shadow, 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* ABOUT */
@@ -312,6 +319,7 @@ body {
 
 .team-social-icon {
   fill: var(--color-icons);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-link-icon {
@@ -322,16 +330,19 @@ body {
   height: 44px;
   border-radius: 50%;
   background-color: var(--fon-color);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-link-icon:hover,
 .team-link-icon:focus {
   background-color: var(--accent-color);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-link-icon:hover .team-social-icon,
 .team-link-icon:focus .team-social-icon {
   fill: var(--fon-color);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-container-wrapper {
@@ -360,19 +371,23 @@ body {
   flex-basis: calc((100% - 150px) / 5);
   border-radius: 4px;
   border: 1px solid var(--color-icons);
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .clients-list-item:hover,
 .clients-list-item:focus {
   border: 1px solid var(--accent-color);
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-link-icon {
   fill: var(--color-icons);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-link:hover .clients-link-icon,
 .clients-link:focus .clients-link-icon {
   fill: var(--accent-color);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* FOOTER */
@@ -413,26 +428,30 @@ body {
   font-weight: 400;
   line-height: 1.71;
   color: var(--fon-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-address:hover,
 .footer-address:focus {
   color: var(--accent-color);
-}
-
-.address:hover,
-.address:focus {
-  color: var(--accent-color);
-}
-
-.footer-mailto {
-  margin-bottom: 9px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address {
   font-weight: 400;
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.address:hover,
+.address:focus {
+  color: var(--accent-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-mailto {
+  margin-bottom: 9px;
 }
 
 .foter-title {
@@ -451,6 +470,7 @@ body {
 
 .footer-social-icon {
   fill: var(--fon-color);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-link-icon {
@@ -461,16 +481,19 @@ body {
   height: 44px;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-link-icon:hover,
 .footer-link-icon:focus {
   background-color: var(--accent-color);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-link-icon:hover .footer-social-icon,
 .footer-link-icon:focus .footer-social-icon {
   fill: var(--fon-color);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* BATTONS */
@@ -509,6 +532,8 @@ body {
   font-size: 16px;
   line-height: 1.63;
   text-align: center;
+  transition: color, background-color, box-shadow,  250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .filter-btn:hover,
@@ -517,7 +542,7 @@ body {
   background-color: var(--accent-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
+  transition: color, background-color, box-shadow,  250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .accent-btn {
@@ -535,12 +560,14 @@ body {
 .portfolio-sections-link{
  display: block;
  flex-basis: calc((100% - 60px) / 3);
+ transition: box-shadow  250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-sections-link:hover,
 .portfolio-sections-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
+  transition: box-shadow  250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-heading {
